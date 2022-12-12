@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(145deg, #ffa751, #ffe259);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    box-shadow: 0 5px 10px rgb(0, 0 , 0 , 0.2);
+    margin: 0 auto;
+    padding: 2%;
+    background-color: rgb(248, 235, 212);
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(251, 244, 231);
+    margin: 2% 0;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    padding: 0 5%;
+    border-radius: 5px;
+    border: 0.5px solid rgb(192, 181, 161);
+}
+
+.listItems {
+    list-style: none;
+    margin: 3% 0 0 0;
+    padding: 0;
+    border: 0.5px solid rgb(192, 181, 161);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.listItem {
+    background-color: rgb(255, 255, 255);
+    padding: 2% 5%;
+    border-bottom: 0.5px solid rgb(192, 181, 161);
+}
+
+.listItem:hover {
+    background: rgb(251, 244, 231);
+    cursor: pointer;
+}
+
+.listItem:last-child {
+    border-bottom: none;
+}
+
+.noItem {
+    margin: 3% 0;
+    padding: 2% 5%;
+    border-radius: 5px;
+    border-left: 5px solid red;
+    background-color: rgb(247, 155, 155);
+}
+
